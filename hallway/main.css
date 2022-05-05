@@ -6,8 +6,8 @@ body {
 
 img{
   max-width: 4000px;
-  max-height: auto;
-  margin: 0;
+  max-height: 100vh;
+  margin-bottom: 0;
 }
 
 .container {
