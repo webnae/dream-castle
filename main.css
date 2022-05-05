@@ -4,7 +4,7 @@ body {
 }
 
 img{
-  max-width: 1680px;
+  min-width: 1680px;
   min-height: auto;
   margin: 0;
 }
