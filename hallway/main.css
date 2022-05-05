@@ -5,7 +5,7 @@ body {
 }
 
 img{
-  max-width: 3780px;
+  min-width: 4000px;
   max-height: auto;
   margin: 0;
 }
@@ -28,7 +28,7 @@ img{
   background-color: blue;
   width: 303px;
   height: 584px;
-  position: sticky;
+  position: absolute;
   bottom: 93px;
   left: 267px;
 }
