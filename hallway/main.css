@@ -9,12 +9,9 @@ img{
   margin: 0;
 }
 
-@media screen and (max-width: 6615px) {
-  
-}
-
 .container {
   background-color: none;
+  min-height: 100vh;
   display: flex;
   margin: 0;
   padding: 0;
