@@ -5,8 +5,12 @@ body {
 }
 
 img{
-  min-width: 3780px;
+  width: 3780px;
   margin: 0;
+}
+
+@media screen and (max-width: 6615px) {
+  
 }
 
 .container {
