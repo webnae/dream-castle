@@ -5,15 +5,13 @@ body {
 }
 
 img{
-  min-width: 3780px;
-  min-height: auto;
+  max-width: 3780px;
+  max-height: auto;
   margin: 0;
 }
 
 .container {
   background-color: none;
-  min-width: 3780px;
-  min-height: auto;
   display: flex;
   margin: 0;
   padding: 0;
@@ -27,10 +25,10 @@ img{
 }
 
 .one {
-  background-color: none;
+  background-color: blue;
   width: 303px;
   height: 584px;
-  position: absolute;
+  position: sticky;
   bottom: 93px;
   left: 267px;
 }
