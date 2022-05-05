@@ -6,15 +6,9 @@ body {
 
 img{
   max-width: 4000px;
-  min-height: auto;
+  max-height: auto;
   margin: 0;
 }
-
-/* @media all and (min-width: 3780px) {
-  img {
-    min-height: auto;
-  }
-} */
 
 .container {
   background-color: none;
