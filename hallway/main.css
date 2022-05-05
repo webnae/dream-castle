@@ -12,6 +12,8 @@ img{
 
 .container {
   background-color: none;
+  min-width: 3780px;
+  min-height: auto;
   display: flex;
   margin: 0;
   padding: 0;
