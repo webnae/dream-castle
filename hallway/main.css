@@ -5,9 +5,15 @@ body {
 }
 
 img{
-  min-width: 4000px;
+  max-width: 3780px;
   max-height: auto;
   margin: 0;
+}
+
+@media all and (min-width: 3780px) {
+  img {
+    min-height: auto;
+  }
 }
 
 .container {
