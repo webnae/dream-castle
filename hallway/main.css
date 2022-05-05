@@ -5,7 +5,7 @@ body {
 }
 
 img{
-  max-width: 4000px;
+  width: 4000px;
   max-height: 100vh;
   margin-bottom: 0;
 }
