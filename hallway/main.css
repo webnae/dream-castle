@@ -6,7 +6,7 @@ body {
 
 img{
   max-width: 3780px;
-  max-height: auto;
+  min-height: auto;
   margin: 0;
 }
 
@@ -36,7 +36,7 @@ img{
   height: 584px;
   position: absolute;
   bottom: 93px;
-  left: 267px;
+  left: 70vh;
 }
 
 .two {
