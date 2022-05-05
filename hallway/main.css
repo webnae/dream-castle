@@ -6,6 +6,7 @@ body {
 
 img{
   min-width: 3780px;
+  min-height: auto;
   margin: 0;
 }
 
