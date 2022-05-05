@@ -6,13 +6,14 @@ body {
 
 img{
   width: 3780px;
+  height: 100vh;
   margin: 0;
 }
 
 @media screen and (min-width: 2560px) {
 .full-width-img {
 margin: auto;
-width: 90%;
+width: 150%;
 }
 
 .container {
