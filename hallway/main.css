@@ -17,12 +17,13 @@ img{
   margin: 0;
   padding: 0;
   position: absolute;
+  z-index: 0;
 }
 
 .child1 {
   margin: 0;
   position: relative;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .one {
@@ -32,6 +33,7 @@ img{
   position: absolute;
   bottom: 93px;
   left: 265px;
+  z-index: 1;
 }
 
 .two {
@@ -41,6 +43,7 @@ img{
   position: absolute;
   bottom: 93px;
   left: 690px;
+  z-index: 2;
 }
 
 .three {
@@ -50,6 +53,7 @@ img{
   position: absolute;
   bottom: 93px;
   left: 1310px;
+  z-index: 3;
 }
 
 .four {
