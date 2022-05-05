@@ -5,7 +5,7 @@ body {
 }
 
 img{
-  max-width: 3780px;
+  max-width: 3900px;
   min-height: auto;
   margin: 0;
 }
@@ -31,12 +31,12 @@ img{
 }
 
 .one {
-  background-color: blue;
+  background-color: none;
   width: 303px;
   height: 584px;
   position: absolute;
   bottom: 93px;
-  left: 70vh;
+  left: 265px;
 }
 
 .two {
