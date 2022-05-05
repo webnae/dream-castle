@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #331457;
+  text-align: center;
+  color: white;
+  font-family: "Mr Eaves San OT", sans-serif;
+  font-size: 1.3rem;
+}
+
+.sign {
+  background-color: #d199c6;
+  width: 550px;
+  height: 130px;
+  padding: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 480px;
+  left: 400px;
+}
+
+.shiny {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  position: fixed;
+  top: 140px;
+  left: 140px;
+  animation: blink -1s 3s infinite linear;
+}
+
+@keyframes blink {
+  0% {transform: scale(1); opacity: 0%;}
+  50% {transform: scale(1.5); opacity: 100%; transform: rotate(45deg);}
+  100% {transform: scale(1); opacity: 0%;}
+}
+
+.shiny2 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  position: fixed;
+  bottom: 140px;
+  right: 140px;
+  animation: blink2 -3s 3s infinite linear;
+}
+
+@keyframes blink2 {
+  0% {transform: scale(1); opacity: 0%;}
+  50% {transform: scale(1.5); opacity: 100%; transform: rotate(45deg);}
+  100% {transform: scale(1); opacity: 0%;}
+}
+
+.shiny3 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  position: fixed;
+  bottom: 120px;
+  left: 200px;
+}
+
+.shiny4 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  position: fixed;
+  top: 200px;
+  right: 575px;
+  animation: blink4 -4s 3s infinite linear;
+}
+
+@keyframes blink4 {
+  0% {transform: scale(1); opacity: 0%;}
+  50% {transform: scale(1.5); opacity: 100%; transform: rotate(45deg);}
+  100% {transform: scale(1); opacity: 0%;}
+}
+
+.shiny5 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  position: fixed;
+  bottom: 420px;
+  left: 400px;
+  animation: blink5 3s infinite linear;
+}
+
+@keyframes blink5 {
+  0% {transform: scale(1); opacity: 0%;}
+  50% {transform: scale(1.5); opacity: 100%; transform: rotate(45deg);}
+  100% {transform: scale(1); opacity: 0%;}
+}
+
+.shiny6 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  position: fixed;
+  bottom: 450px;
+  right: 500px;
+}
+
+.shiny7 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  position: fixed;
+  top: 350px;
+  left: 700px;
+}
+
+.shiny8 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  position: fixed;
+  bottom: 390px;
+  right: 690px;
+  mix-blend-mode: lighten;
+}
+
+.shiny9 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  position: fixed;
+  bottom: 90px;
+  right: 710px;
+  animation: blink9 -2s 3s infinite linear;
+}
+
+@keyframes blink9 {
+  0% {transform: scale(1); opacity: 0%;}
+  50% {transform: scale(1.5); opacity: 100%; transform: rotate(45deg);}
+  100% {transform: scale(1); opacity: 0%;}
+}
+
+a {
+  background-color: #ffecd1;
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  position: fixed;
+  bottom: 32px;
+  left: 32px;
+  transition: all 1s ease;
+}
+
+a:hover {
+  background-color: orange;
+  width: 16px;
+  height: 16px;
+  border-radius: 20%;
+}

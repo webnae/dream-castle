@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+
+img{
+  width: 1950px;
+  margin: 0;
+}
+
+.container {
+  background-color: none;
+  display: flex;
+  flex-direction: flex-end;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.child1 {
+  margin: 0;
+  position: relative;
+  object-fit: cover;
+}
+
+.door {
+  width: 360px;
+  height: 650px;
+  margin: 5px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../hallway/door-03.png");
+  position: absolute;
+  bottom: 93px;
+  right: 135px;
+  overflow: hidden;
+}

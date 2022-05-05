@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background-color: #d8d0f7;
+  overflow-y: hidden;
+}
+
+img{
+  width: 4300px;
+  margin: 0;
+}
+
+.container {
+  background: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  overflow-y: hidden;
+}
+
+.child1 {
+  margin: 0;
+  position: relative;
+  object-fit: cover;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.door {
+  width: 360px;
+  height: 650px;
+  margin: 5px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../hallway/door-03.png");
+  position: absolute;
+  bottom: 93px;
+  left: 180px;
+  overflow: hidden;
+}
+
+.candle {
+  width: 50px;
+  height: 65px;
+  border-radius: 25%;
+  background-color: none;
+  position: absolute;
+  bottom: 291px;
+  right: 1732px;
+}

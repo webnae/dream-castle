@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: #80c5e3;
+}
+
+img{
+  width: 1680px;
+  margin: 0;
+}
+
+.container {
+  background-color: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.child1 {
+  margin: 0;
+  position: relative;
+  object-fit: cover;
+}
+
+.enter {
+  margin: 0;
+  width: 120px;
+  height: 191px;
+  background-color: none;
+  position: absolute;
+  top: 802px;
+  left: 792px;
+}
+
+.door {
+  margin: 0;
+  width: 120px;
+  height: 192px;
+  background-color: none;
+  position: absolute;
+  bottom: 190px;
+  left: 0px;
+}
+
+.door:hover {
+  background-color: none;
+  width: 118px;
+  height: 191px;
+  box-shadow: 0px 0px 40px 10px rgb(246, 174, 247);
+  /* x offset, y offset, blur size, spread size, color */
+  transition: 0.3s;
+  position: absolute;
+  bottom: 190px;
+  left: 0px;
+}

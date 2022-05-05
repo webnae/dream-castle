@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background-color: #B4ABED;
+  overflow-y:hidden;
+}
+
+img{
+  width: 3780px;
+  margin: 0;
+}
+
+.container {
+  background-color: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.child1 {
+  margin: 0;
+  position: relative;
+  object-fit: cover;
+}
+
+.one {
+  background-color: none;
+  width: 303px;
+  height: 584px;
+  position: absolute;
+  bottom: 93px;
+  left: 267px;
+}
+
+.two {
+  background-color: none;
+  width: 303px;
+  height: 584px;
+  position: absolute;
+  bottom: 93px;
+  left: 690px;
+}
+
+.three {
+  background-color: none;
+  width: 303px;
+  height: 584px;
+  position: absolute;
+  bottom: 93px;
+  left: 1310px;
+}
+
+.four {
+  background-color: none;
+  width: 303px;
+  height: 584px;
+  position: absolute;
+  bottom: 93px;
+  right: 420px;
+}
+
+.five {
+  background-color: none;
+  width: 303px;
+  height: 584px;
+  position: absolute;
+  bottom: 93px;
+  right: 990px;
+}
+
+.six {
+  background-color: none;
+  width: 303px;
+  height: 584px;
+  position: absolute;
+  bottom: 93px;
+  right: 1765px;
+}
+
+.back {
+  width: 150px;
+  height: 100px;
+  background-color: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+//////////////////////
+
+.wall {
+  background-color: #c0defe;
+  display: flex;
+  align-items: flex-end;
+  width: 2550px;
+  height: 685px;
+  justify-content: space-evenly;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.door {
+  width: 760px;
+  height: 450px;
+  padding: 5px;
+  margin: 5px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('door-03.png');
+}
+
+.twixt {
+  width: 150px;
+  height: auto;
+  padding: 3px;
+  background-color: none;
+  margin: 5px;
+}
