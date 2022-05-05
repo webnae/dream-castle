@@ -5,20 +5,12 @@ body {
 }
 
 img{
-  width: 3780px;
-  height: 100vh;
+  min-width: 3780px;
   margin: 0;
-}
-
-@media screen and (min-width: 2560px) {
-.full-width-img {
-margin: auto;
-width: 150%;
 }
 
 .container {
   background-color: none;
-  min-height: 100vh;
   display: flex;
   margin: 0;
   padding: 0;
