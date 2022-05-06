@@ -207,10 +207,11 @@ a {
 .drawer1 {
   width: 311px;
   height: 75px;
-  background-color: green;
+  background-color: none;
   position: absolute;
   top: 384px;
   right: 359px;
+  z-index: 3;
 }
 
 .floor {
