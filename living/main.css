@@ -40,6 +40,15 @@ img{
   right: 170px;
 }
 
+.fire {
+  width: 200px;
+  height: 230px;
+  background-color: none;
+  position: absolute;
+  bottom: 100px;
+  right: 1640px;
+}
+
 .floor {
   background-color: #D6A672;
   width: 3955px;
