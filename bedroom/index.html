@@ -4,6 +4,20 @@
   <title>Bedroom</title>
   <link rel="stylesheet" href="main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+  function pop1() {
+    var parfum = document.getElementById("link");
+    parfum.classList.toggle("show")}
+
+  function pop2() {
+    var pothos = document.getElementById("gold");
+    pothos.classList.toggle("show2")}
+
+  function pop3() {
+    var jade = document.getElementById("truth");
+    jade.classList.toggle("show3")}
+
+</script>
 </head>
 
 <body>
@@ -12,7 +26,29 @@
 
   <div class="child1"><img src="bedroom-01.png" alt=""></div>
   <a href="../hallway/index.html" class="door"></a>
-  <a href="https://shorthandedshot.github.io/joyful-work/index.html#top" target="_blank"><div class="candle"></div></a>
+  <a href="" target="_blank"><div class="candle"></div></a>
+  <div class="parfum" onclick="pop1()">
+    <span class="fenty" id="link"><a href="https://fentybeauty.com/products/fenty-eau-de-parfum?gclid=CjwKCAjwjtOTBhAvEiwASG4bCIxBxwOL9hr8WkOBFB9Rp2D-zF_9RDjuEcjuHtYXRUCKWjI5ypjjXhoCHyYQAvD_BwE" target="_blank">
+      smell like rihanna</a><Br>
+    <i>main scents: rose, citrus, warm, musk</i>
+    </span>
+  </div>
+  <a href="../hazy/index.html" target="_blank" class="closet"></a>
+  <div class="pothos" onclick="pop2()">
+    <span class="purple" id="gold">
+      <b>Golden Pothos</b><br>
+      Watering: <i>every few days</i> <br>
+      Sunlight: <i>low to moderate</i> <br>
+    </span>
+  </div>
+  <div class="jade" onclick="pop3()">
+    <span class="blue" id="truth">
+      <b>Jade Plant</b> <br>
+      Watering: <i>weekly</i> <br>
+      Sunlight: <i>unsure</i> <br>
+      the leaves keep<Br>falling off
+    </span>
+  </div>
 
 </div>
 
