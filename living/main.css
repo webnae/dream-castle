@@ -1,9 +1,10 @@
 body {
   margin: 0;
+  overflow-y: hidden;
 }
 
 img{
-  width: 100%;
+  width: 3955px;
   margin: 0;
 }
 
@@ -13,4 +14,28 @@ img{
   margin: 0;
   padding: 0;
   position: absolute;
+}
+
+.door1 {
+  width: 350px;
+  height: 637px;
+  margin: 0;
+  overflow: hidden;
+  background-image: url("../hallway/door-03.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 99px;
+  left: 100px;
+}
+
+.door2 {
+  width: 350px;
+  height: 637px;
+  margin: 0;
+  overflow: hidden;
+  background-image: url("../hallway/door-03.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 99px;
+  right: 170px;
 }

@@ -4,9 +4,17 @@
   <title>Bathroom</title>
   <link rel="stylesheet" href="main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <script>
-    window.scrollTo(1950, 0);
-  </script> -->
+  <script>
+    var flush = new Audio();
+    flush.src = "../audios/flush.mp3";
+
+    var bowl = new Audio();
+    bowl.src = "../audios/urine.mp3";
+
+    var sink = new Audio();
+    sink.src = "../audios/sink_bathroom.mp3";
+
+  </script>
 </head>
 
 <body onLoad="window.scrollBy(1900,0)">
@@ -14,6 +22,10 @@
   <div class="container">
     <div class="child1"><img src="bathroom-01.png" alt="Blue bathroom with roses on white and blue checkered tile. Toilet paper to the left of the toilet and sink to the right of it."></div>
     <a href="../hallway/index.html"><div class="door" id="right"></div></a>
+    <div class="faucetR" onmousedown="sink.play()" onmouseup="sink.pause()"></div>
+    <div class="faucetL" onmousedown="sink.play()" onmouseup="sink.pause()"></div>
+    <div class="flush" onmousedown="flush.play()" onmouseup="flush.pause()"></div>
+    <div class="bowl" onmousedown="bowl.play()" onmouseup="bowl.pause()"></div>
   </div>
 
 </body>

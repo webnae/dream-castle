@@ -35,3 +35,41 @@ img{
   right: 135px;
   overflow: hidden;
 }
+
+.faucetR {
+  width: 32px;
+  height: 8px;
+  background-color: none;
+  position: absolute;
+  bottom: 435px;
+  right: 983px;
+}
+
+.faucetL {
+  width: 32px;
+  height: 8px;
+  background-color: none;
+  position: absolute;
+  bottom: 435px;
+  right: 1061px;
+}
+
+.flush {
+  width: 60px;
+  height: 15px;
+  background-color: none;
+  position: absolute;
+  bottom: 440px;
+  left: 140px;
+}
+
+.bowl {
+  width: 170px;
+  height: 145px;
+  background-color: none;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  position: absolute;
+  bottom: 140px;
+  left: 200px;
+}

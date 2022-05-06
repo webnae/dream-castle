@@ -85,7 +85,7 @@ img{
 
 .back {
   width: 150px;
-  height: 100px;
+  height: 100vh;
   background-color: none;
   position: absolute;
   bottom: 0;
