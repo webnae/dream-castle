@@ -204,6 +204,15 @@ a {
   overflow: hidden;
 }
 
+.drawer1 {
+  width: 311px;
+  height: 75px;
+  background-color: green;
+  position: absolute;
+  top: 384px;
+  right: 359px;
+}
+
 .floor {
   background-color: #5E3F26;
   width: 4300px;
