@@ -39,3 +39,14 @@ img{
   bottom: 99px;
   right: 170px;
 }
+
+.floor {
+  background-color: #D6A672;
+  width: 3955px;
+  height: 500px;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+}

@@ -27,7 +27,7 @@ img{
 }
 
 .door {
-  width: 360px;
+  width: 356px;
   height: 650px;
   margin: 5px;
   background-size: cover;
@@ -47,4 +47,15 @@ img{
   position: absolute;
   bottom: 291px;
   right: 1732px;
+}
+
+.floor {
+  background-color: #5E3F26;
+  width: 4300px;
+  height: 500px;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
 }

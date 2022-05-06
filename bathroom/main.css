@@ -73,3 +73,14 @@ img{
   bottom: 140px;
   left: 200px;
 }
+
+.floor {
+  background-color: #D1E3E8;
+  width: 1950px;
+  height: 500px;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+}
