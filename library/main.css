@@ -105,34 +105,34 @@ body {
   transform: scale(1.05);
 }
 
-.book-indiv {
-  background-color: #E0994C;
-  border-left: 4px solid lighten(#E0994C, 4%);
-  border-right: 4px solid darken(#E0994C, 4%);
+.book-full {
+  background-color: #ED8A42;
+  border-left: 4px solid lighten(#ED8A42, 4%);
+  border-right: 4px solid darken(#ED8A42, 4%);
 }
 
-.book-comp {
-  background-color: #BA7F3F;
-  border-left: 2px solid lighten(#BA7F3F, 4%);
-  border-right: 2px solid darken(#BA7F3F, 4%);
+.book-speech {
+  background-color: #F0B58B;
+  border-left: 2px solid lighten(#F0B58B, 4%);
+  border-right: 2px solid darken(#F0B58B, 4%);
 }
 
-.book-sys {
-  background-color: #FAA955;
-  border-left: 2px solid lighten(#FAA955, 4%);
-  border-right: 2px solid darken(#FAA955, 4%);
+.book-essay {
+  background-color: #BD6E35;
+  border-left: 2px solid lighten(#BD6E35, 4%);
+  border-right: 2px solid darken(#BD6E35, 4%);
 }
 
-.book-excerpt {
-  background-color: #7A532A;
-  border-left: 2px solid lighten(#7A532A, 4%);
-  border-right: 2px solid darken(#7A532A, 4%);
+.book-chptr {
+  background-color: #6E401F;
+  border-left: 2px solid lighten(#6E401F, 4%);
+  border-right: 2px solid darken(#6E401F, 4%);
 }
 
-.book-springer {
-  background-color: #b97859;
-  border-left: 2px solid lighten(#b97859, 10%);
-  border-right: 2px solid darken(#b97859, 10%);
+.book-webpage {
+  background-color: #6E5340;
+  border-left: 2px solid lighten(#6E5340, 10%);
+  border-right: 2px solid darken(#6E5340, 10%);
   /* color: #3B2814; */
 }
 
