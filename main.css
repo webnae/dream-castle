@@ -35,22 +35,22 @@ img{
 
 .door {
   margin: 0;
-  width: 120px;
+  width: 119px;
   height: 192px;
   background-color: none;
   position: absolute;
-  bottom: 190px;
-  left: 0px;
+  bottom: 191px;
+  left: -3px;
 }
 
 .door:hover {
   background-color: none;
-  width: 118px;
+  width: 119px;
   height: 191px;
   box-shadow: 0px 0px 40px 10px rgb(246, 174, 247);
   /* x offset, y offset, blur size, spread size, color */
   transition: 0.3s;
   position: absolute;
-  bottom: 190px;
-  left: 0px;
+  bottom: 191x;
+  left: -3px;
 }

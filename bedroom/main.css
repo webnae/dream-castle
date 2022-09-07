@@ -87,6 +87,10 @@ img{
   border-color: #555 transparent transparent transparent;
 }
 
+.parfum:hover {
+  cursor: pointer;
+}
+
 .pothos {
   width: 63px;
   height: 69px;
@@ -125,6 +129,10 @@ img{
   border-color: #555 transparent transparent transparent;
 }
 
+.pothos:hover{
+  cursor: pointer;
+}
+
 .jade {
   width: 62px;
   height: 40px;
@@ -160,6 +168,10 @@ img{
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
+}
+
+.jade:hover{
+  cursor: pointer;
 }
 
 .parfum .show {
